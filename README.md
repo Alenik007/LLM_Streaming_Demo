@@ -1,5 +1,4 @@
 # LLM_Streaming_Demo
-# LLM Streaming Demo
 
 Минимальное веб-приложение, которое:
 
