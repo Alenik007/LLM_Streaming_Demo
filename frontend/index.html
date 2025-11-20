@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>LLM Streaming Demo</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="app-container">
+		<h1>LLM Streaming Demo</h1>
+
+		<div class="input-block">
+			<label for="prompt">Ваш запрос к модели:</label>
+			<textarea id="prompt" rows="5" placeholder="Введите вопрос..."></textarea>
+			<button id="sendBtn">Спросить</button>
+		</div>
+
+		<div class="output-block">
+			<h2>Ответ модели (стриминг):</h2>
+			<pre id="answer"></pre>
+		</div>
+
+		<div class="stats-block">
+			<h2>Статистика</h2>
+			<div id="stats">
+				Загрузка статистики...
+			</div>
+		</div>
+
+		<div class="logs-block">
+			<h2>Последние запросы (из БД)</h2>
+			<ul id="logs"></ul>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

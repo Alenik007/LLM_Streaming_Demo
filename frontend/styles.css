@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+.app-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.output-block pre {
+    background: #111;
+    color: #0f0;
+    padding: 10px;
+    min-height: 100px;
+    white-space: pre-wrap;
+}
+
+.stats-block, .logs-block {
+    margin-top: 20px;
+}
+
+.logs-block ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.logs-block li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+    font-size: 0.9em;
+}

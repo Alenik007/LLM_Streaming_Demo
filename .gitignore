@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+
+# Environment variables
+.env
+backend/.env
+
+# OS stuff
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Data
+data/
